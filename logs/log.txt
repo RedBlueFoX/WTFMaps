@@ -1,0 +1,379 @@
+ * Serving Flask app 'index' (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 117-798-287
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [28/Oct/2021 18:49:00] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 18:49:00] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:12] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:12] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:12] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:12] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:13] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:13] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:13] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:13] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:14] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:14] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:29] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:29] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:31] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:31] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:32] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:32] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:33] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:33] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:33] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:33] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:35] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:35] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:35] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:35] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:35] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:35] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:36] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:00:36] "GET /static/Survey_template.css HTTP/1.1" 200 -
+ * Detected change in 'D:\\Studies\\Semester7Project\\WTFMaps\\index.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 117-798-287
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [28/Oct/2021 19:04:18] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:04:18] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:04:20] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:04:20] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:04:24] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:04:24] "GET /static/Survey_template.css HTTP/1.1" 200 -
+ * Detected change in 'D:\\Studies\\Semester7Project\\WTFMaps\\index.py', reloading
+<Request 'http://127.0.0.1:5000/handle_data' [POST]>
+<Request 'http://127.0.0.1:5000/handle_data' [POST]>
+<Request 'http://127.0.0.1:5000/handle_data' [POST]>
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 117-798-287
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [28/Oct/2021 19:04:34] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:04:34] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:04:37] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:04:37] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:04:38] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:04:38] "GET /static/Survey_template.css HTTP/1.1" 200 -
+ * Detected change in 'D:\\Studies\\Semester7Project\\WTFMaps\\index.py', reloading
+ImmutableMultiDict([('rate', '4')])
+ImmutableMultiDict([])
+ImmutableMultiDict([('rate', '4')])
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 117-798-287
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [28/Oct/2021 19:07:16] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:07:16] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:07:21] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:07:21] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:07:22] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:07:22] "GET /static/Survey_template.css HTTP/1.1" 200 -
+ * Detected change in 'D:\\Studies\\Semester7Project\\WTFMaps\\index.py', reloading
+4
+3
+4
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 117-798-287
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [28/Oct/2021 19:08:42] "POST /handle_data HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\cli.py", line 358, in __call__
+    self._flush_bg_loading_exception()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\cli.py", line 346, in _flush_bg_loading_exception
+    raise exc
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\cli.py", line 333, in _load_app
+    self._load_unlocked()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\cli.py", line 350, in _load_unlocked
+    self._app = rv = self.loader()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\cli.py", line 406, in load_app
+    app = locate_app(self, import_name, name)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\cli.py", line 260, in locate_app
+    __import__(module_name)
+File "D:\Studies\Semester7Project\WTFMaps\index.py", line 20
+    print returndata
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(returndata)?
+127.0.0.1 - - [28/Oct/2021 19:08:42] "GET /handle_data?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:08:42] "GET /handle_data?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:08:42] "GET /handle_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:08:42] "GET /handle_data?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:08:42] "GET /handle_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in 'D:\\Studies\\Semester7Project\\WTFMaps\\index.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 117-798-287
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [28/Oct/2021 19:08:57] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:08:57] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:09:00] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:09:00] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:09:00] "POST /handle_data HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2091, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2076, in wsgi_app
+    response = self.handle_exception(e)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Studies\Semester7Project\WTFMaps\index.py", line 19, in handle_data
+    returndata = request.form['rate']
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\werkzeug\datastructures.py", line 377, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'rate'
+127.0.0.1 - - [28/Oct/2021 19:09:00] "GET /handle_data?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:09:00] "GET /handle_data?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:09:00] "GET /handle_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:09:00] "GET /handle_data?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:09:00] "GET /handle_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:13:39] "POST /handle_data HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2091, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2076, in wsgi_app
+    response = self.handle_exception(e)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Studies\Semester7Project\WTFMaps\index.py", line 19, in handle_data
+    returndata = request.form['rate']
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\werkzeug\datastructures.py", line 377, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'rate'
+127.0.0.1 - - [28/Oct/2021 19:13:39] "GET /handle_data?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:13:39] "GET /handle_data?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:13:39] "GET /handle_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:13:39] "GET /handle_data?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:13:39] "GET /handle_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:13:41] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:13:41] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:21:45] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:21:45] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:21:46] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:21:46] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:21:47] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:21:47] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:21:51] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:21:51] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:24:44] "POST /handle_data HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2091, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2076, in wsgi_app
+    response = self.handle_exception(e)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Studies\Semester7Project\WTFMaps\index.py", line 19, in handle_data
+    returndata = request.form['rate']
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\werkzeug\datastructures.py", line 377, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'rate'
+127.0.0.1 - - [28/Oct/2021 19:24:44] "GET /handle_data?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:24:44] "GET /handle_data?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:24:44] "GET /handle_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:24:44] "GET /handle_data?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:24:44] "GET /handle_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:24:46] "POST /handle_data HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2091, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2076, in wsgi_app
+    response = self.handle_exception(e)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Studies\Semester7Project\WTFMaps\index.py", line 19, in handle_data
+    returndata = request.form['rate']
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\werkzeug\datastructures.py", line 377, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'rate'
+127.0.0.1 - - [28/Oct/2021 19:24:46] "GET /handle_data?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:24:46] "GET /handle_data?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:24:46] "GET /handle_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:24:46] "GET /handle_data?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:24:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:24:48] "GET /static/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:24:52] "POST /handle_data HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2091, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2076, in wsgi_app
+    response = self.handle_exception(e)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Studies\Semester7Project\WTFMaps\index.py", line 19, in handle_data
+    returndata = request.form['rate']
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\werkzeug\datastructures.py", line 377, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'rate'
+127.0.0.1 - - [28/Oct/2021 19:24:52] "GET /handle_data?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:24:52] "GET /handle_data?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:24:52] "GET /handle_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:24:52] "GET /handle_data?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:24:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:24:56] "GET /static/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:25:21] "POST /handle_data HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2091, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2076, in wsgi_app
+    response = self.handle_exception(e)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Studies\Semester7Project\WTFMaps\index.py", line 19, in handle_data
+    returndata = request.form['rate']
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\werkzeug\datastructures.py", line 377, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'rate'
+127.0.0.1 - - [28/Oct/2021 19:25:21] "GET /handle_data?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:25:21] "GET /handle_data?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:25:21] "GET /handle_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:25:21] "GET /handle_data?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:25:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:25:23] "GET /static/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:25:25] "GET /handle_data HTTP/1.1" 405 -
+127.0.0.1 - - [28/Oct/2021 19:25:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:25:26] "GET /static/index.css HTTP/1.1" 200 -
+ * Detected change in 'D:\\Studies\\Semester7Project\\WTFMaps\\index.py', reloading
+4
+4
+4
+4
+2
+4
+5
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 117-798-287
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [28/Oct/2021 19:25:39] "GET /handle_data HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2091, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2076, in wsgi_app
+    response = self.handle_exception(e)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "D:\Studies\Semester7Project\WTFMaps\index.py", line 19, in handle_data
+    returndata = request.form['rate']
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\werkzeug\datastructures.py", line 377, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+KeyError: 'rate'
+127.0.0.1 - - [28/Oct/2021 19:25:39] "GET /handle_data?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:25:39] "GET /handle_data?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:25:39] "GET /handle_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:25:39] "GET /handle_data?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:25:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:25:40] "GET /static/index.css HTTP/1.1" 200 -
+ * Detected change in 'D:\\Studies\\Semester7Project\\WTFMaps\\index.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 117-798-287
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [28/Oct/2021 19:26:16] "GET /handle_data HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\cli.py", line 358, in __call__
+    self._flush_bg_loading_exception()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\cli.py", line 346, in _flush_bg_loading_exception
+    raise exc
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\cli.py", line 333, in _load_app
+    self._load_unlocked()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\cli.py", line 350, in _load_unlocked
+    self._app = rv = self.loader()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\cli.py", line 406, in load_app
+    app = locate_app(self, import_name, name)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\cli.py", line 260, in locate_app
+    __import__(module_name)
+File "D:\Studies\Semester7Project\WTFMaps\index.py", line 19
+    if(request.method = 'POST'):
+                      ^
+SyntaxError: invalid syntax
+127.0.0.1 - - [28/Oct/2021 19:26:16] "GET /handle_data?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:26:16] "GET /handle_data?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:26:16] "GET /handle_data?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:26:16] "GET /handle_data?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:26:18] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\cli.py", line 363, in __call__
+    rv = self._load_unlocked()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\cli.py", line 350, in _load_unlocked
+    self._app = rv = self.loader()
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\cli.py", line 406, in load_app
+    app = locate_app(self, import_name, name)
+  File "D:\Studies\Semester7Project\WTFMaps\venv\Lib\site-packages\flask\cli.py", line 260, in locate_app
+    __import__(module_name)
+File "D:\Studies\Semester7Project\WTFMaps\index.py", line 19
+    if(request.method = 'POST'):
+                      ^
+SyntaxError: invalid syntax
+127.0.0.1 - - [28/Oct/2021 19:26:18] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:26:18] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:26:18] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:26:18] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:26:19] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in 'D:\\Studies\\Semester7Project\\WTFMaps\\index.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 117-798-287
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [28/Oct/2021 19:26:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:26:23] "GET /static/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:26:24] "GET /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:26:24] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:26:26] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:26:26] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:26:27] "GET /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:26:27] "GET /static/Survey_template.css HTTP/1.1" 200 -

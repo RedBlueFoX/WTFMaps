@@ -1,0 +1,53 @@
+{
+	"totalAmount": 7,
+	"questions" : [
+		{
+			"id": 0,
+			"question" : "Preferrable commutation means",
+			"question_type" : "Choice",
+			"answers" : [
+				"Feet",
+				"Bike",
+				"Car",
+				"Public Transport"
+			]
+		},
+		{
+			"id": 1,
+			"question" : "Do you like museums",
+			"question_type" : "Scale"
+		},
+		{
+			"id": 2,
+			"question" : "Do you enjoy walking",
+			"question_type" : "Scale"
+		},
+		{
+			"id": 3,
+			"question" : "Do you like nature",
+			"question_type" : "Scale"
+		},
+		{
+			"id": 4,
+			"question" : "Favourite Food",
+			"question_type" : "Choice",
+			"answers" : [
+				"Street food",
+				"National Cuisine",
+				"Restaurants",
+				"Fast-food"
+			]
+		},
+		{
+			"id": 5,
+			"question" : "Do you like parks",
+			"question_type" : "Scale"
+		},
+		{
+			"id": 6,
+			"question" : "Do you like architecture",
+			"question_type" : "Scale"
+		}
+
+	]
+}
