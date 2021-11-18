@@ -1,0 +1,47 @@
+{
+	"contents": 
+	[
+		{"Type" : "Choice",
+		"Name" : "Commutation",
+		"Category": "Transport",
+		"Answers" : [
+			"Feet",
+			"Bike",
+			"Car",
+			"Public Transport"
+		],
+		"Answer" : 1,
+		"Total" : 4},
+		{"Type" : "Scale",
+		"Answer" : 4,
+		"Name" : "Museums",
+		"Category" : "Activity"},
+		{"Type" : "Scale",
+		"Answer" : 3,
+		"Name" : "Walking",
+		"Category" : "Transport"},
+		{"Type" : "Scale",
+		"Answer" : 2,
+		"Name" : "Nature",
+		"Category" : "Activity"},
+		{"Type" : "Choice",
+		"Name" : "Foods",
+		"Category" : "Food",
+		"Answers" : [
+			"Street food",
+			"National Cuisine",
+			"Restaurants",
+			"Fast-food"
+		],
+		"Answer" : 3,
+		"Total" : 4},
+		{"Type" : "Scale",
+		"Answer" : 4,
+		"Name" : "Parks",
+		"Category" : "Activity"},
+		{"Type" : "Scale",
+		"Answer" : 2,
+		"Name" : "Architecture",
+		"Category" : "Activity"}
+	]
+}

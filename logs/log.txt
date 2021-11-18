@@ -377,3 +377,9 @@ SyntaxError: invalid syntax
 127.0.0.1 - - [28/Oct/2021 19:26:26] "GET /static/Survey_template.css HTTP/1.1" 200 -
 127.0.0.1 - - [28/Oct/2021 19:26:27] "GET /handle_data HTTP/1.1" 200 -
 127.0.0.1 - - [28/Oct/2021 19:26:27] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:36:49] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:36:49] "GET /static/Survey_template.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:37:38] "GET /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:37:38] "GET /static/Survey_template.css HTTP/1.1" 304 -
+127.0.0.1 - - [28/Oct/2021 19:39:08] "POST /handle_data HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2021 19:39:09] "GET /static/Survey_template.css HTTP/1.1" 200 -

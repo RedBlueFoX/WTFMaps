@@ -4,32 +4,33 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import overpy
-import geocoder
-g = geocoder.ip('me')
-print(g.latlng)
+
+
 
 
 class Fetcher:
-  def __init__(self, url):
-    self.overpass_url = url
+  def __init__(self):
+    self.overpass_url = "http://overpass-api.de/api/interpreter"
     
-  def prepareQuery(data):
-    area = data["area"]
-    bbox = data["bbox"]
-    node = data["node"]
+  def prepareQuery(self, coordinates, scale):
+    self.overpass_query = """
+  [out:json];
+  node(""" + str(coordinates[0] - (scale / 100)) + "," + str(coordinates[1] - (scale / 100)) + ',' + str(coordinates[0]+ (scale / 100)) + "," + str(coordinates[1] + (scale / 100)) + """);
+
+  out center;
+  """
+  def request(self):
+    response = requests.get(self.overpass_url, params = {'data': self.overpass_query})
+    self.data = response.json()
+    return self.data
 
 
 
 
 if __name__ == "__main__":
 
-  overpass_url = "http://overpass-api.de/api/interpreter"
-  overpass_query = """
-  [out:json];
-  node(""" + str(52.2516399308433461 - 0.01) + "," + str(20.984026003823164 - 0.01) + ',' + str(52.251639930843346+ 0.01) + "," + str(20.984026003823164+ 0.01) + """);
 
-  out center;
-  """
+
   response = requests.get(overpass_url, 
                           params={'data': overpass_query})
   data = response.json()
