@@ -65,3 +65,6 @@ html, body{
 #submitButton:active {
 	background: rgb(28,110,164); 
 }
+#map{
+	height: 800px;
+}

@@ -41,6 +41,7 @@ def model(response, userData, coordinates, time):
 		time = time - 0.5
 	print(priorityList[["lat", "lon", "tags.amenity", "Weights", "distance","tags.name"]].to_string())
 	outputCoordList = []
+	outputCoordList.append(Reverse(coordinates))
 	for index, row in priorityList.iterrows():
 		outputCoordList.append((row["lon"], row["lat"]))
 	return priorityList, outputCoordList
@@ -59,9 +60,12 @@ def prioritize(inputData, outList):
 
 def calculateDistance(coordinatesA, coordinatesB):
 	return haversine(coordinatesA, coordinatesB, unit = Unit.KILOMETERS)
-def sigmoid(x):
+def cosine(x):
 	# return 1/(1 + math.exp(-x))
 	return math.cos(x) 
+def Reverse(tuples):
+    new_tup = tuples[::-1]
+    return new_tup
 def giveWeights(row, userWeights, maxDistance):
 	if row["Category"] in foodCategoryList:
 		sFoodWeights = 0.5
@@ -69,17 +73,17 @@ def giveWeights(row, userWeights, maxDistance):
 		restaurantsWeights = 0.5
 		fFoodWeights = 0.5
 		if row["Category"] in ("bar", "biergarten", "pub"):
-			sFoodWeights = sFoodWeights * userWeights.index[userWeights["FoodsStreetfood"]] * sigmoid(row["Distance"] / maxDistance)
+			sFoodWeights = sFoodWeights * userWeights.index[userWeights["FoodsStreetfood"]] * cosine(row["Distance"] / maxDistance)
 			return sFoodWeights
 		if row["Category"] in ("cafe", "food_court", "fast_food"):
-			fFoodWeights = fFoodWeights * userWeights.index[userWeights["FoodsFastFood"]] * sigmoid(row["Distance"] / maxDistance)
+			fFoodWeights = fFoodWeights * userWeights.index[userWeights["FoodsFastFood"]] * cosine(row["Distance"] / maxDistance)
 			return fFoodWeights
 		if row["Category"] in ("restaurant"):
-			restaurantsWeights = (nCuisineWeights * userWeights.index[userWeights["FoodsNationalCuisine"]] * sigmoid(row["distance"] / maxDistance)
-				+ restaurantsWeights * userWeights.index[userWeights["FoodsRestaurant"]] * sigmoid(row["distance"] / maxDistance)) / 2
+			restaurantsWeights = (nCuisineWeights * userWeights.index[userWeights["FoodsNationalCuisine"]] * cosine(row["distance"] / maxDistance)
+				+ restaurantsWeights * userWeights.index[userWeights["FoodsRestaurant"]] * cosine(row["distance"] / maxDistance)) / 2
 			return restaurantsWeights
 
-	return (0.5 + sigmoid(row["distance"] / maxDistance)) / 2
+	return (0.5 + cosine(row["distance"] / maxDistance)) / 2
 
 
 
@@ -126,14 +130,14 @@ def main():
 	preprocessor = PData(jsonData)
 
 	user_data = preprocessor.getData()
-	priorityDF, coordList = model(response_data, preprocessor, coordinates, 3)
+	priorityDF, coordList = model(response_data, preprocessor, coordinates, 5)
 	tokenf = open("osmtoken.txt",)
 	token = tokenf.readline()
-
+	print(coordList)
 	client = openrouteservice.Client(key = token)
-	routes = client.directions(coordList, profile = 'cycling-regular', optimize_waypoints = True)
+	routes = client.directions(coordList, format = 'geojson',profile = 'cycling-regular', optimize_waypoints = True)
 
-	print(routes)
+	
 	with open("output.geojson", "w") as f:
 		dump(routes, f)
 

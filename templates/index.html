@@ -3,19 +3,77 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel= "stylesheet" href="static/index.css">
-	<meta name="viewport" content="width=`, initial-scale=1.0">
+	<meta name="viewport" content="width=, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/> 
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script> <!--- Leafletjs --->
 	<title>Document</title>
 </head>
 <body>
 	<div class="wrapper">
 		<div id="main">
 			<div class="contents">
-				<div class="prompt" id = "index_prompt">
+				<!-- <div class="prompt" id = "index_prompt">
 					<form action="{{ url_for('handle_data') }}" method="GET" enctype="multipart/form-data" id="form1"></form>
 					<button type="submit" form="form1" value="Submit" id="submitButton">Start Survey</button>
-				</div>
+				</div> -->
+				<div id="map"></div>
+				<input name="jsonUpload" id="input" type = "file">
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+		var lon = 0;
+		var lat = 0;
+		function getLocation()
+		{
+			if(navigator.geolocation)
+			{
+				return navigator.geolocation.getCurrentPosition(showPosition);
+			} else {
+				return null;
+			}
+		}
+		function showPosition(position)
+		{
+			lon = position.coords.longitude;
+			lat = position.coords.latitude;
+			console.log("Latitude: " + position.coords.latitude +  "\nLongitude: " + position.coords.longitude);
+		}
+		getLocation();
+		var map = L.map('map', {
+			crs: L.CRS.EPSG3857,
+    		center: L.latLng(lat, lon),
+    		zoom: 5
+		});
+
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    		maxZoom: 18,
+
+    		tileSize: 512,
+    		zoomOffset: -1
+		}).addTo(map);
+		setTimeout(() => { map.setView(L.latLng(lat, lon)	, map.getZoom(), { animation: true }); }, 50);
+		
+		const inputElement = document.getElementById("input");
+		inputElement.addEventListener("change", handleFiles, false);
+		var json = 0;
+		function handleFiles() {
+			const reader = new FileReader()
+  			reader.onload = handleFileCallback;
+  			reader.readAsText(event.target.files[0])
+		}
+		function handleFileCallback(event)
+		{
+			console.log(event.target.result);
+			L.geoJSON(JSON.parse(event.target.result)).addTo(map);
+		}
+		L.geoJSON(json).addTo(map)
+
+	</script>
 </body>
 </html>
